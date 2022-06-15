@@ -1,12 +1,17 @@
 {
     "tabIcon":"https://cdn.glitch.global/eab28935-60de-4c85-ac7f-6a2b28c79d86/favicon.ico?v=1642546077812",
-    "personalName":"Leonel Poletti",
-    "mainTitle":"Desarrollador Web",
-    "mainSubtitle":"En esta página podrás ver <a href=\"projects.html\">mis proyectos web</a> más recientes",
-    "aboutDescription":"Soy estudiante de Ingeniería Informática (FICH, UNL, Santa Fe, Argentina) y me especializo en el desarrollo web. Los cursos y prácticas que tomé me llevaron a adquirir conocimientos avanzados de Node.js, JavaScript, CSS y HTML. Mi meta actual es ampliar mis conocimientos para conseguir un trabajo como desarrollador, por lo que me encuentro aprendiendo nuevos frameworks backend y frontend.",
+    
+    "personalName":"Your Name",
+    
+    "mainTitle":"Web developer",
+    "mainSubtitle":"On this page you can see my most recent <a href=\"projects.html\">web projects</a>.",
+    
+    "aboutDescription":"Your description here.",
+    
     "newsImg":"https://cdn.glitch.global/eab28935-60de-4c85-ac7f-6a2b28c79d86/github.jpg?v=1654125899549",
-    "newsUrl":"https://github.com/HopFr0g/node-login-system",
-    "newsTitle":"¡Corre a GitHub!",
-    "newsDescription":"He creado un sistema de autenticación con Node.js",
+    "newsUrl":"https://github.com/HopFr0g/developer-portfolio-template",
+    "newsTitle":"News",
+    "newsDescription":"Use this section to invite people to your latest project.",
+    
     "footerContact":"poletti.leonel@hotmail.com"
 }

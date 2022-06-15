@@ -2,26 +2,6 @@
     {
         "name":"Node.js",
         "image":"https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
-        "level":3
-    },
-    {
-        "name":"Java",
-        "image":"https://cdn-icons-png.flaticon.com/512/226/226777.png",
         "level":2
-    },
-    {
-        "name":"Spring",
-        "image":"https://4.bp.blogspot.com/-Wu0VFZBMbhw/VlgexscHoII/AAAAAAAACMI/qNNAmSPbyGo/s1600/photo.jpg",
-        "level":1
-    },
-    {
-        "name":"PHP",
-        "image":"https://cdn-icons-png.flaticon.com/512/919/919830.png",
-        "level":1
-    },
-    {
-        "name":"PostgreSQL",
-        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
-        "level":1
     }
 ]

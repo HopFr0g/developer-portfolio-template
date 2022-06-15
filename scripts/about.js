@@ -15,13 +15,13 @@ const addTechnology = (fragment, techName, imgUrl, levelNumber) => {
     img.setAttribute("src", imgUrl);
     switch (levelNumber) {
         case 3:
-            level.innerHTML = "Avanzado";
+            level.innerHTML = "Advanced";
             break;
         case 2:
-            level.innerHTML = "Intermedio";
+            level.innerHTML = "Intermediate";
             break;
         default:
-            level.innerHTML = "Básico";
+            level.innerHTML = "Beginner";
     }
     // Class definition:
     container.classList.add("technology");

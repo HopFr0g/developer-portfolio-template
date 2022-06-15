@@ -30,14 +30,14 @@ const addProject = (projectTitle, projectDescription, imageUrl, projectUrl, exte
     title.innerHTML = projectTitle;
     description.innerHTML = projectDescription;
     image.setAttribute("src", imageUrl);
-    external ? button.innerHTML = "Ir al proyecto" : button.innerHTML = "Ver proyecto";
+    external ? button.innerHTML = "Go to project" : button.innerHTML = "See project";
     // Listeners:
     button.addEventListener("click", () => {
         let hasMouse = checkMouseConnected();
         if (multiplatform || hasMouse)
             location.href = projectUrl;
         else
-            displayNotification("Dispositivo no compatible", "Para entrar a esta demostración, tu dispositivo debe tener un mouse conectado.", {"text":"Aceptar"});
+            displayNotification("Unsupported device", "To enter this demo, your device must have a mouse connected.", {"text":"Ok"});
     });
     // Structure assembly:
     container.appendChild(title);
