@@ -1,0 +1,31 @@
+.editor {
+    width: fit-content;
+    
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 8px;
+    
+    background: #DDDDDD;
+}
+
+.canvas {
+    background: #FFFFFF;
+}
+
+.tools {
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-selector {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.width-selector {
+    flex-grow: 1;
+}

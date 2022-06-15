@@ -1,0 +1,135 @@
+:root {
+	--color-principal: #118;
+	--color-secundario: #224;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.clima {
+	width: 400px;
+	max-width: 90%;
+	height: 200px;
+
+	padding: 8px;
+	margin: 10px;
+
+	background-image: url("https://cdn.glitch.me/eab28935-60de-4c85-ac7f-6a2b28c79d86%2Fbackground.png?v=1637206467600");
+	background-size: 100% 100%;
+
+	box-shadow: 4px 4px 10px #888;
+
+	position: absolute;
+
+	z-index: 0;
+    
+    text-align: left !important;
+}
+
+.clima__fondo {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	top: 0;
+	left: 0;
+
+	background: #8886;
+
+	z-index: 1;
+}
+
+.clima__selector {
+	width: 100%;
+
+	margin-bottom: 12px;
+
+	position: relative;
+	z-index: 10;
+}
+
+.clima__selector-distrito, .clima__selector-localidad {
+	display: block;
+
+	width: 100%;
+	height: 32px;
+}
+
+.clima__selector-distrito {
+	margin-bottom: 20px;
+}
+
+.clima__resultado {
+	color: var(--color-principal);
+
+	position: relative;
+	z-index: 10;
+}
+
+.clima__resultado-localidad {
+	font-size: 11pt;
+
+	margin-bottom: 2px;
+}
+
+.clima__resultado-distrito {
+	font-size: 8pt;
+
+	margin-bottom: 12px;
+}
+
+.clima__resultado-temperatura {
+	font-size: 20pt;
+}
+
+.clima__resultado-descripcion {
+	font-size: 9pt;
+}
+
+.clima__fuente {
+	color: var(--color-secundario);
+	font-size: 8pt;
+
+	position: absolute;
+
+	right: 4px;
+	bottom: 4px;
+	z-index: 4;
+}
+
+.clima__pantalla-carga {
+	background: #7777;
+
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	z-index: 1000; 
+}
+
+.clima__pantalla-carga img {
+	height: 40%;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	position: absolute;
+}
+
+@media screen and (min-width: 400px) {
+	.clima__resultado-localidad {
+		font-size: 14pt;
+	}
+  .clima__resultado-distrito {
+	  font-size: 9pt;
+  }
+}

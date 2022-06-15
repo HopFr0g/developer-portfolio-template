@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Creador de registros",
+        "description":"Permite que el usuario cree, modifique y elimine entradas de texto. Las entradas se almacenan en el navegador del cliente mediante IndexedDB.",
+        "url":"demos/crud.html",
+        "image":"https://cdn.glitch.me/eab28935-60de-4c85-ac7f-6a2b28c79d86%2Fcrud.png?v=1637206470802",
+        "multiplatform":1
+    },
+    {
+        "name":"El clima en Argentina",
+        "description":"Aplicación para consultar el clima en la República Argentina mediante el SMN (Servicio Meteorológico Nacional).",
+        "url":"demos/weather.html",
+        "image":"https://cdn.glitch.me/eab28935-60de-4c85-ac7f-6a2b28c79d86%2Fweather.png?v=1637206484638",
+        "multiplatform":1
+    },
+    {
+        "name":"MiniPaint",
+        "description":"Este software contiene una interfaz muy simple que permite al usuario dibujar con pinceles de distintos tamaños y colores.",
+        "url":"demos/minipaint.html",
+        "image":"https://cdn.glitch.me/eab28935-60de-4c85-ac7f-6a2b28c79d86%2Fminipaint.png?v=1637206476353",
+        "multiplatform":0
+    },
+    {
+        "name":"Texturizador",
+        "description":"Este software permite arrastrar diversas imágenes dentro de un recuadro para observar cómo cambia la textura del mismo.",
+        "url":"demos/texturizer.html",
+        "image":"https://cdn.glitch.me/eab28935-60de-4c85-ac7f-6a2b28c79d86%2Ftexturizer.png?v=1637206484199",
+        "multiplatform":0
+    }
+]

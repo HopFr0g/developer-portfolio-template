@@ -1,0 +1,51 @@
+.description {
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.technology {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 30px 20px;
+    
+    width: 80%;
+    max-width: 300px;
+    
+    margin: 10px auto;
+    padding: 8px;
+    
+    text-align: left;
+    
+    background: var(--background-color-light);
+}
+
+.technology__name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.technology__img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.technology__level {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+    font-size: 10pt;
+}
+
+.technology__name, .technology__level {
+    margin-left: 8px;
+}
+
+.section {
+    margin-top: 32px;
+}

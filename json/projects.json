@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Este sitio",
+        "description":"Repositorio de acceso público con el código de esta página.",
+        "url":"https://github.com/HopFr0g/portfolio",
+        "image":""
+    },
+    {
+        "name":"Sistema de Autenticación",
+        "description":"Repositorio de acceso público con un sistema de login creado con Node.js (utiliza express, passport.js, bcrypt, better-sqlite3, cookie-parser) y EJS",
+        "url":"https://github.com/HopFr0g/node-login-system",
+        "image":"https://cdn.glitch.global/eab28935-60de-4c85-ac7f-6a2b28c79d86/loginsystem.png?v=1654123582034"
+    },
+    {
+        "name":"JuntadAPP",
+        "description":"Aplicación web para organizar días de reunión. Utiliza el framework Node.js (express, cors, better-sqlite3).",
+        "url":"https://juntadapp.glitch.me",
+        "image":"https://cdn.glitch.global/eab28935-60de-4c85-ac7f-6a2b28c79d86/juntadapp.png?v=1642537847667"
+    },
+    {
+        "name":"Demostración: CRUD",
+        "description":"Repositorio de acceso público con una aplicación demostrativa desarrollada con el framework Spring (Java) y bases de datos PostgreSQL.",
+        "url":"https://github.com/HopFr0g/spring-crud",
+        "image":""
+    }
+]

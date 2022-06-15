@@ -1,0 +1,63 @@
+.project {
+    width: 400px;
+    min-width: 300px;
+    width: 80%;
+    max-width: 400px;
+    min-height: 200px;
+    
+    margin: 12px auto;
+    
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 40px 1fr 52px;
+}
+
+.project__h2 {
+    margin-top: 8px;
+    
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.project__p {
+    margin-left: 8px;
+    
+    grid-column: 1 / 2;
+    grid-row: 2;
+    
+    text-align: justify;
+    
+    display: flex;
+    align-items: center;
+}
+
+.project__img {
+    width: 100%;
+    
+    margin-right: 8px;
+    
+    grid-column: 2 / 3;
+    grid-row: 2;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__img img {
+    width: 80%;
+}
+
+.project__button {
+    width: 40%;
+    min-width: 200px;
+    
+    margin: 8px auto;
+    
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+.frontend-projects {
+    margin-top: 32px;
+}

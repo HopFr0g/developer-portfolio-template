@@ -1,0 +1,127 @@
+.fancy__button-green, .fancy__button-yellow, .fancy__button-red, .fancy__button-blue, .fancy__button-disabled {
+    font-size: 16pt;
+    font-weight: 500;
+    
+    padding: 2px 20px 4px;
+    
+    border: none;
+    
+    transition: background-color .2s ease, border-bottom .2s ease;
+}
+
+.fancy__button-green:focus, .fancy__button-yellow:focus, .fancy__button-red:focus, .fancy__button-blue:focus {
+    outline: none;
+}
+
+.fancy__button-green {
+    background: var(--dark-green);
+    color: var(--white);
+    border-bottom: 4px solid var(--green);
+}
+
+.fancy__button-green:hover, .fancy__button-green:focus {
+    background: var(--green);
+    border-bottom: 4px solid var(--light-green);
+}
+
+.fancy__button-yellow {
+    background: var(--dark-yellow);
+    color: var(--black);
+    border-bottom: 4px solid var(--yellow);
+}
+
+.fancy__button-yellow:hover, .fancy__button-yellow:focus {
+    background: var(--yellow);
+    border-bottom: 4px solid var(--light-yellow);
+}
+
+.fancy__button-red {
+    background: var(--dark-red);
+    color: var(--white);
+    border-bottom: 4px solid var(--red);
+}
+
+.fancy__button-red:hover, .fancy__button-red:focus {
+    background: var(--red);
+    border-bottom: 4px solid var(--light-red);
+}
+
+.fancy__button-blue {
+    background: var(--dark-blue);
+    color: var(--white);
+    border-bottom: 4px solid var(--blue);
+}
+
+.fancy__button-blue:hover, .fancy__button-blue:focus {
+    background: var(--blue);
+    border-bottom: 4px solid var(--light-blue);
+}
+
+.fancy__button-disabled {
+    background: var(--gray);
+    color: var(--dark-gray);
+    border-bottom: 4px solid var(--light-gray);
+}
+
+.fancy__button-disabled:focus {
+    outline: none;
+}
+
+.fancy__box, .fancy__input, .fancy__select {
+    background: var(--background-color);
+    color: var(--body-text-color);
+    transition: background-color .4s ease, border-bottom .4s ease;
+}
+
+.fancy__input, .fancy__select {
+    padding: 10px;
+    
+    font-size: 12pt;
+    
+    border: none;
+    border-bottom: 4px solid var(--main-color-dark);
+}
+
+.fancy__input:hover, .fancy__select:hover {
+    background: var(--background-color-light);
+}
+
+.fancy__input:hover, .fancy__select:hover {
+    border-bottom: 4px solid var(--main-color);
+}
+
+.fancy__select:focus {
+    outline: none;
+    background: var(--background-color-light);
+    border-bottom: 4px solid var(--main-color-light);
+}
+
+.fancy__input:focus {
+    outline: none;
+    background: var(--background-color-light);
+    border-bottom: 4px solid var(--main-color-light);
+}
+
+.fancy__input::placeholder {
+    color: var(--placeholder-color);
+}
+
+.fancy__title, .fancy__subtitle {
+    color: var(--body-text-color);
+    font-family: var(--main-font);
+}
+
+.fancy__title {
+    font-size: 24pt;
+}
+
+.fancy__subtitle {
+    font-size: 16pt;
+}
+
+.fancy__input-title {
+    font-size: 12pt;
+    color: var(--body-text-color);
+    text-align: left;
+    font-weight: 100;
+}

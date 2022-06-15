@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- CSS Main file: -->
+        <link rel="stylesheet" type="text/css" href="weather.css">
+
+        <!-- CSS general purpose files: -->
+        <link rel="stylesheet" type="text/css" href="/styles/env.css">
+        <link rel="stylesheet" type="text/css" href="/styles/fancy.css">
+        <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/styles/responsive.css">
+        
+        <!-- Settings: -->
+        <meta charset="utf-8">
+
+        <!-- Title and icon: -->
+        <title id="tab-title"></title>
+        <link id="tab-icon" rel="icon" type="image/x-icon">
+
+        <!-- Meta viewport tag: -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Icons script: -->
+        <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+
+        <!-- Fonts: -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="responsive-menu__blur"></div>
+        
+        <header class="header">
+            <h1 id="header-title"></h1>
+        </header>
+
+        <nav class="nav">
+            <div class="nav__button-container">
+                <div class="nav__button fas fa-bars"></div>
+            </div>
+            <div class="nav__a-container">
+                <a href="/index.html" class="nav__a"><i class="fas fa-home"></i>Inicio</a>
+                <a href="/projects.html" class="nav__a"><i class="fas fa-book"></i>Mis proyectos</a>
+                <a href="/about.html" class="nav__a"><i class="fas fa-user"></i>Sobre mí</a>
+            </div>
+        </nav>
+        
+        <main class="main">
+            <div class="clima">
+                <div class="clima__selector">
+                    <select class="clima__selector-distrito">
+                        <option value="">Selecciona un distrito</option>
+                    </select>
+                    <select class="clima__selector-localidad" style="display: none">
+                        <option value="">Selecciona una localidad</option>
+                    </select>
+                </div>
+                <div class="clima__resultado">
+                    <h3 class="clima__resultado-localidad"></h3>
+                    <h4 class="clima__resultado-distrito"></h4>
+                    <h3 class="clima__resultado-temperatura"></h3>
+                    <h4 class="clima__resultado-descripcion"></h4>
+                </div>
+                <div class="clima__pantalla-carga">
+                    <img src="https://cdn.glitch.me/eab28935-60de-4c85-ac7f-6a2b28c79d86%2Floading.gif?v=1637206473857">
+                </div>
+                <div class="clima__fondo"></div>
+                <h6 class="clima__fuente">Fuente: MSN</h6>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer__contact" id="footer-contact"></div>
+        </footer>
+        
+        <script src="weather.js"></script>
+        <script src="/scripts/responsive.js"></script>
+        <script src="/scripts/info.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+        "name":"JavaScript",
+        "image":"https://cdn-icons-png.flaticon.com/512/5968/5968509.png",
+        "level":3
+    },
+    {
+        "name":"HTML",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+        "level":3
+    },
+    {
+        "name":"CSS",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        "level":3
+    }
+]
