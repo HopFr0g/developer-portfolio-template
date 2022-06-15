@@ -1,12 +1,12 @@
 [
     {
         "name":"HTML",
-        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+        "image":"https://cdn.glitch.global/eab28935-60de-4c85-ac7f-6a2b28c79d86/html.png?v=1655321959723",
         "level":3
     },
     {
         "name":"CSS",
-        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        "image":"https://cdn.glitch.global/eab28935-60de-4c85-ac7f-6a2b28c79d86/css.png?v=1655321965519",
         "level":2
     }
 ]
